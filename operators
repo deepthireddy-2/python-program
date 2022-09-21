@@ -1,0 +1,6 @@
+l=int(input())
+b=int(input())
+p=2*(l+b)
+a=l*b
+print("required length is %d m" %p)
+print("required quantity of carpet is %d sqm" %a)
