@@ -1,0 +1,48 @@
+#vowels or consonants
+
+a=input()
+vowels="aeiouAEIOU"
+if(a>='a' and a<='z' or a>='A' and a<='Z'):
+    if (a in vowels):
+        print("vowel")
+    else:
+        print("consonant")
+else:
+    print("not an alphabet")
+    
+#RGY Lights    
+    
+    s=float(input())
+d=float(input())
+t=float(input())
+if (s*d)<=t:
+    print("no")
+if (s*d)>t:
+    print("yes")
+    
+  #Microwave oven  
+    
+    
+a=int(input("Enter the number of items\n"))
+b=float(input("Enter the single item heating time\n"))
+if a<2:
+    print("The recommended heating time is %f" %b)
+elif a==2:
+    print("The recommended heating time is %.2f" %(b+50/100*b))
+elif a==3:
+    print("The recommended heating time is %f" %(2*b))
+elif a>3:
+    print("Number of items is more")
+    
+  #Hotel tariff calculator  
+    
+   a=int(input())
+b=float(input())
+c=int(input())
+if a<=3 or a>=7 and a<=10:
+    print("Hotel Tariff Rs.%.2f" %(b*c))
+elif a>3 and a<7 and a>=11 or a<=12:
+    print("Hotel Tariff Rs.%.2f" %((b*c)+c*(20/100*b)))
+else:
+    print("Invalid Input")
+ 
