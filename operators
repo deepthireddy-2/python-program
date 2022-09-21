@@ -1,6 +1,26 @@
+#fencing the ground
+
 l=int(input())
 b=int(input())
 p=2*(l+b)
 a=l*b
 print("required length is %d m" %p)
 print("required quantity of carpet is %d sqm" %a)
+
+
+#swapping without using third variable
+
+a=int(input())
+b=int(input())
+a,b=b,a
+print(a)
+print(b)
+
+#average calculation
+
+s1=float(input())
+s2=float(input())
+s3=float(input())
+s4=float(input())
+s5=float(input())
+print((s1+s2+s3+s4+s5)/5)
