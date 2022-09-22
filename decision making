@@ -45,4 +45,41 @@ elif a>3 and a<7 and a>=11 or a<=12:
     print("Hotel Tariff Rs.%.2f" %((b*c)+c*(20/100*b)))
 else:
     print("Invalid Input")
+    
+    
+#Greatest of two numbers    
+    
+  a=int(input())
+b=int(input())
+if(a==b):
+    print(f' {a} is equal to {b}')
+if(a>b):
+    print(f' {a} is greater than {b}')
+if(a<b):
+    print(f' {a} is less than {b}')
+    
+    #Grading system 
+    
+   x=int(input())
+if(x==100):
+    print('s')
+elif(x<=99 and x>=90):
+    print('a')
+elif(x<=89 and x>=80):
+    print('b')
+elif(x<=79 and x>=70):
+    print('c')
+elif(x<=69 and x>=60):
+    print('d')
+elif(x<=59 and x>=50): 
+    print('e')
+elif(x<=49):
+    print('f')
+else:
+    print('invalid input') 
+      
+      
+      
+      
+      
  
