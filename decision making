@@ -150,6 +150,64 @@ elif y<x and y<z:
 else:
     print("L3 has the minimal seating capacity")
     
+  #Gardening  
+    
+  r=int(input())
+c=int(input())
+t=int(input())
+if(t>=1 and t<=r):
+    print('yes')
+elif(t%r==0):
+    print('yes')
+elif(t%r==1):
+      print('yes')
+else:
+    print('no')  
+    
+  #Budget  
+    
+    a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+z=(350.34*a)+(230.90*b)+(190.55*c)+(125.30*d)+(180.90*e)
+if z<=15000:
+    print("yes")
+else:
+    print("no")
+    
+    #Sece dining
+    
+    a=str(input())
+b=int(input())
+if (a=="front" and b==1) or (a=="rear" and b==2) :
+    print('Left Handed')
+else:
+    print('Right Handed')
+    
+    
+    
+    #Intersection of a circle
+    
+   import math
+x1=int(input())
+y1=int(input())
+r1=int(input())
+x2=int(input())
+y2=int(input())
+r2=int(input())
+a=math.sqrt((x1-x2)**2+(y1-y2)**2)
+print(a)
+if r1+r2==a:
+    print("the circles are tangential")
+elif r1+r2>a:
+    print("the circles  overlap")
+else:
+    print("the circles do not overlap") 
+    
+    
+    
     
     
     
